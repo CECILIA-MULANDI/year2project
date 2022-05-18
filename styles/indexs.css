@@ -1,0 +1,17 @@
+/* body {
+    background-image: url("../images/dd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+ 
+  .bubbles img{
+    width: 30px;
+
+}
+.bubbles{
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}

@@ -1,0 +1,109 @@
+body {
+    
+    padding: 0;
+    margin: 0;
+   
+
+  }
+  /* .img{
+      background-image: url("../images/images.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+   /* width: 100%; */
+     /* bottom: 2%;
+   height: 1900px;
+  } */ 
+  .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+      background-image: url("../images/donation1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+     
+  }
+  div.card{
+     
+    /* padding-top: 50px; */
+  
+      float: left;
+      width: 90%;
+      /* width: auto; */
+      max-width: 440px;
+      color: #fff;
+      align-items: center;
+      text-align: center;
+      padding: 50px 35px;
+      border: 1px solid rgba(255,255,255,0.3);
+      background: rgba(0,0,255,0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+      backdrop-filter: blur(5px);
+  }
+  .card h2{
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 0;
+
+  }
+  .card p{
+      font-size: 18px;
+      margin: 10px auto;
+  }
+
+/* .bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 40%;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+       
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100);
+        opacity: 1;
+    }
+   
+} */
+.bubbles img:nth-child(1){
+animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+animation-delay: 1s;
+    }
+.bubbles img:nth-child(3){
+ animation-delay: 4.5s;
+        }
+.bubbles img:nth-child(4){
+animation-delay: 5s;
+      }
+.bubbles img:nth-child(5){
+animation-delay: 6s;
+}
+.bubbles img:nth-child(6){
+        animation-delay: 7s;
+        }   
+.bubbles img:nth-child(7){
+            animation-delay: 8s;
+            }   

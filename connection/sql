@@ -1,0 +1,51 @@
+CREATE TABLE users(
+    userid int not null AUTO_INCREMENT PRIMARY KEY,
+    fullname VARCHAR(100) not null,
+    username VARCHAR(100) not null,
+    password VARCHAR(100) not null,
+    contact VARCHAR(100) not null,
+    email VARCHAR(100) not null,
+    location VARCHAR(100),
+    role VARCHAR(100)
+    );
+  CREATE TABLE money(
+ moneyid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ donorname VARCHAR(22) NOT NULL,
+ amount VARCHAR(22)NOT NULL,
+ mode VARCHAR(22)NOT NULL
+) 
+ALTER TABLE money
+ADD donorname varchar(255);
+   
+ CREATE TABLE cloth(
+ clotheid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ DonorName VARCHAR(100) NOT NULL,
+  clothe VARCHAR(100) NOT NULL,
+ recipient VARCHAR(100) NOT NULL,
+ contactno int NOT NULL,
+clocation VARCHAR(100)
+)    
+ 
+ CREATE TABLE equipment(
+ equipmentid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ DonorName VARCHAR(100) NOT NULL,
+TypeofEquipment VARCHAR(100) NOT NULL,
+ Elocation VARCHAR(100)
+)    
+ 
+DROP TABLE pickup
+ CREATE TABLE pickup(
+ pickupid int NOT NULL PRIMARY KEY,
+ agentname VARCHAR(100)   NOT NULL,
+ donationtype VARCHAR(100) NOT NULL,
+ timeofpickup time,
+ location VARCHAR(100)
+)
+ 
+ CREATE TABLE qualitycheck(
+ qualityid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ agentname VARCHAR(100),
+ donationtype VARCHAR(100),
+ status VARCHAR(100)
+)
+ 

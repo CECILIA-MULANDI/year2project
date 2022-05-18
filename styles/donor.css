@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: url('../images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    margin-top: 5%;
+    margin-left: 33%;
+    width: 90%;
+    max-width: 440px;
+    /* color: #fff; */
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: rgba(0,0,255,0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+/* iframe{
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+   margin-left: 10%;
+   /* width: 80%;
+} */ */
+
+ /* header{
+    height: 80px;
+    width: 100%;
+    background-color: green;
+     top: 0;
+     position: absolute;
+    box-shadow:0 10px 15px rgba(0,0,0,0.1); 
+ 
+}
+ul{
+   padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+} 
+ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block; 
+} 
+ ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 80px;
+    color:black;
+   
+
+
+}
+ul ul{
+    position: absolute;
+    top:60px;
+    display:none;
+} 
+ul li:hover > ul{
+    display: block;
+} 
+ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}  */
+.cointainer{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.clothingform{
+
+    width: 100%;
+    padding-top: 90px;
+    margin: auto;
+    float: left;
+    border-radius: 5px;
+    
+}
+.clothingform label{
+    font-family: sans-serif;
+    font-weight: 30px;
+    display: flex;
+    margin-top: 6px;
+    text-align: center;
+     color: black;
+    
+}
+
+.clothingform input{
+    width: 80%;
+    height: 5px;
+    padding: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.equipform {
+    margin-top: 10%;
+    width: 30%;
+    height: 550px;
+    padding: 20px;
+    border-radius: 4px;
+
+
+
+}
+
+.equipform label {
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+}
+.equipform input{
+   
+    width: 70%;
+    height: 5px;
+    padding: 20px;
+    
+    border-radius: 5px;
+    color: black;
+}
+
+button{
+    margin-top: 10px;
+     width: 100px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+form h1 {
+    text-align: center;
+}
+.popup{
+    width: 400px;
+    background: lightblue;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px ;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    background: lightgreen;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+
+}
